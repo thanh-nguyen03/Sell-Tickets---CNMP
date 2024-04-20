@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TestView">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1c227" class="javax.swing.JTextArea" binding="showtimeSlotDate20TextArea" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <columns value="1"/>
+          <editable value="false"/>
+          <text value="Showtime Slot:&#9;Date: 20/04/20024&#10;&#9;&#9;Time: 16:00&#10;Movie:&#9;&#9;Dune 2&#10;Room: &#9;&#9;02&#10;Type:&#9;&#9;3D&#10;Tickets:&#9;STT&#9;Seat&#9;Price&#10;&#9;&#9; 1&#9; A1&#9;60.000đ&#10;&#9;&#9; 2&#9; A2&#9;60.000đ&#10;Total Price:&#9;120.000đ"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

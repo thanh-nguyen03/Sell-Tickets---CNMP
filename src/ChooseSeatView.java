@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 
 public class ChooseSeatView {
 	private JPanel titlePanel;
@@ -59,22 +58,13 @@ public class ChooseSeatView {
 	private JCheckBox i4CheckBox;
 	private JCheckBox i5CheckBox;
 	private JCheckBox i6CheckBox;
-	private JList list1;
-	private JPanel ticketPreviewPanel;
 	private JTable ticketList;
 	private JButton nextButton;
 	private JButton cancelButton;
 	private JPanel bottomActionPanel;
+	private JTextArea ticketPreviewTextArea;
+	private JPanel ticketPreviewPanel;
 
-	public ChooseSeatView() {
-		String[] columnNames = {"No.", "Seat", "Price"};
-
-		// Create a default table model with the column names and zero rows
-		DefaultTableModel model = new DefaultTableModel(columnNames, 0);
-
-		// Set the model to the resultTable
-		ticketList.setModel(model);
-	}
 
 	public JPanel getChooseSeatView() {
 		return chooseSeatView;
